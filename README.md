@@ -5,8 +5,8 @@ A basic example of a graphQL API connected to PostgreSQL. Inspired by this [Snip
 ## Setup
 
 1. Install all npm packages with `npm install`.
-2. Create a database with three tables: `team`, `player`, and `match`.
-3. Create the tables with the following queries:
+2. Create a new PostgreSQL database.
+3. Use the following queries to create three tables inside your new database (`team`, `player`, and `match`):
 
 ```sql
 CREATE TABLE team (
